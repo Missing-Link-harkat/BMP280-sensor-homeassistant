@@ -7,10 +7,10 @@
 
 // WiFi Configuration
 const char* ssid = "";               // Write your WiFi SSID here (same where home assisntant is connected)
-const char* password = "AADN7UQT5W8JY";       // Write your WiFi Password here
+const char* password = "";       // Write your WiFi Password here
 
 // MQTT Configuration
-const char* mqtt_server = "192.168.100.10";   // IP address of your MQTT broker (same as Home Assistant)
+const char* mqtt_server = "";   // IP address of your MQTT broker (same as Home Assistant)
 
 WiFiClient espClient;
 PubSubClient client(espClient);
